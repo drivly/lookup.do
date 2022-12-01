@@ -1,27 +1,27 @@
-# Templates.do - Worker Templates API 
+# Lookup.do - Worker Templates API 
 
-Explore the API at: <https://templates.do/api>
+Explore the API at: <https://lookup.do/api>
 
 ```json
 {
   "api": {
     "icon": "🚀",
-    "name": "templates.do",
+    "name": "lookup.do",
     "description": "Cloudflare Worker Template",
-    "url": "https://templates.do/api",
-    "type": "https://apis.do/templates",
+    "url": "https://lookup.do/api",
+    "type": "https://apis.do/search",
     "endpoints": {
-      "listCategories": "https://templates.do/api",
-      "getCategory": "https://templates.do/:type"
+      "listCategories": "https://lookup.do/api",
+      "getCategory": "https://lookup.do/:type"
     },
-    "site": "https://templates.do",
-    "login": "https://templates.do/login",
-    "signup": "https://templates.do/signup",
-    "subscribe": "https://templates.do/subscribe",
-    "repo": "https://github.com/drivly/templates.do"
+    "site": "https://lookup.do",
+    "login": "https://lookup.do/login",
+    "signup": "https://lookup.do/signup",
+    "subscribe": "https://lookup.do/subscribe",
+    "repo": "https://github.com/drivly/lookup.do"
   }
   "examples": {
-    "listItems": "https://templates.do/worker"
+    "listItems": "https://lookup.do/worker"
   }
 }
 ```
